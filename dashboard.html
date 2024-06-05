@@ -97,11 +97,12 @@
   font-size: 20px; /* Adjust font size as needed */
   font-weight: 700;
 }
+
   </style>
 </head>
 <body style="background-color: #ececec;">
 
-<nav class="navbar navbar-inverse">
+<!-- <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -115,7 +116,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Vestige Management Dashboard</a></li>
+        <li class="active"><a>Vestige Management Dashboard</a></li>
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -123,12 +124,29 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
   
-<div class="container-fluid text-center">    
+<div class="container-fluid text-center"> 
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">  <span class="active" style="
+      position: relative;
+      top: 26px;
+      font-size: larger;
+      font-weight: 900;
+      color: white;
+      background: radial-gradient(black, transparent);
+      padding: 23px;
+  ">Vestige Management Dashboard</span></div>
+    <div class="col-sm-4"> <img src="./logo.png" alt="Logo" style="height: 45px;width: 67px;     position: relative;
+      top: 16px;
+      left: 126px;
+  "></a></div>
+  </div>   
   <div class="row"  style="
     background: gray;
-    padding: 17px 0px 17px 0px;">
+    padding: 17px 0px 17px 0px;
+    margin-top: 28px;">
    
     <div class="form-group">
    
@@ -313,6 +331,48 @@
   <div class="hex-card">30<br>Foster ID</div> -->
 </div>
  <!-- Tables -->
+ <div class="row">
+  <div class="col-md-12">
+      <div class="table-container">
+          <h5>Current and Last Months Data</h5>
+          <table class="table table-dark">
+            <thead>
+                <tr >
+                    <th></th>
+                    <th style="TEXT-ALIGN: center;">Total Gross Sales</th>
+                    <th style="TEXT-ALIGN: center;">Total Invoices</th>
+                    <th style="TEXT-ALIGN: center;">Total PV</th>
+                    <th style="TEXT-ALIGN: center;">Total Quantity</th>
+                    <th style="TEXT-ALIGN: center;">Unique Distributor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: left; font-weight: 700;">This Month</td>
+                    <td>1000</td>
+                    <td>150</td>
+                    <td>1200</td>
+                    <td>800</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; font-weight: 700;">Last Month</td>
+                    <td>900</td>
+                    <td>140</td>
+                    <td>1100</td>
+                    <td>750</td>
+                    <td>45</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+  </div>
+  
+  
+</div>
+
+
+<hr>
  <div class="row content">
   <div class="col-md-6">
       <div class="table-container">
