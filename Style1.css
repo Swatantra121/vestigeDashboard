@@ -1,0 +1,229 @@
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f5f5;
+
+}
+
+
+
+
+.container {
+
+    max-width: 1200px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    background-color: #b6d156;
+
+    border: 1px solid #9f1c1c;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+.filter-bar {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.filter-option {
+
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.filter-option label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.filter-option select {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+}
+
+
+
+
+.dashboard-content {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+}
+
+
+
+
+.dashboard-content > div {
+
+    width: calc(50% - 20px);
+
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+    border: 1px solid #ddd;
+
+    background-color: #fff;
+
+}
+
+
+
+
+.dashboard-content > div h2 {
+
+    margin-top: 0;
+
+}
+
+
+
+
+.dashboard-content > div p {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.top-5-selling table,
+
+.bottom-5-selling table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+
+
+.top-5-selling table th,
+
+.bottom-5-selling table th {
+
+    background-color: #f0f0f0;
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+
+.top-5-selling table td,
+
+.bottom-5-selling table td {
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+
+/* Responsive design */
+
+
+
+
+@media (max-width: 768px) {
+
+   .filter-bar {
+
+        flex-direction: column;
+
+    }
+
+   .filter-option {
+
+        margin-right: 0;
+
+    }
+
+   .dashboard-content > div {
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+   .filter-option {
+
+        margin-bottom: 10px;
+
+    }
+
+   .dashboard-content > div {
+
+        padding: 10px;
+
+    }
+
+}
